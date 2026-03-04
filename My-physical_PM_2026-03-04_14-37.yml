@@ -1,0 +1,510 @@
+version: 2
+sources: []
+models:
+  - name: CallProperties
+    description: >-
+      Each record in this table represents a uniquely defined call property used
+      in a CRM or call tracking system. The 'Name' field acts as a unique
+      identifier with 'Label' providing a human-friendly description.
+      'FieldType' and 'Type' specify the UI element and underlying data type
+      respectively, while 'GroupName' organizes properties into logical groups.
+      Additional fields such as 'Description', 'DisplayOrder', and
+      'ExternalOptions' offer further context regarding display and
+      functionality. Boolean flags like 'IsFormField', 'IsCalculated',
+      'IsHidden', 'IsHubspotDefined', 'Archivable', 'ReadOnlyDefinition', and
+      'ReadOnlyValue' indicate technical attributes and user interface
+      configurations. 'OptionsAggregate' collects dropdown options and
+      'HasUniqueValue' reinforces the uniqueness of some attributes within the
+      system. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/bc8cc41a-506d-48a8-8a6b-aa9bb9225c3d
+    constraints:
+      - type: primary_key
+        columns:
+          - Name
+    columns:
+      - name: Name
+        constraints: []
+        description: >-
+          Stores the unique technical identifier for each call property. This
+          field acts as the key reference in the system, linking to descriptive
+          labels and ensuring precise mapping in data integrations and process
+          automation.
+        data_type: VARCHAR
+        tests: []
+      - name: Label
+        constraints: []
+        description: >-
+          Holds the human-readable title for each call property. This field is
+          essential for presenting clear, customer-facing names that complement
+          the technical identifiers, enhancing user understanding and
+          navigation.
+        data_type: VARCHAR
+        tests: []
+      - name: FieldType
+        constraints: []
+        description: >-
+          Specifies the user interface element type for each call property
+          (e.g., select, radio, date). Determines how the property is rendered
+          in forms and user interfaces, influencing interaction design and data
+          entry methods.
+        data_type: VARCHAR
+        tests: []
+      - name: Type
+        constraints: []
+        description: >-
+          Defines the data type of the call property such as datetime, bool,
+          string, etc. This classification is crucial for data validation,
+          proper formatting, and seamless integration across systems.
+        data_type: VARCHAR
+        tests: []
+      - name: GroupName
+        constraints: []
+        description: >-
+          Categorizes call properties into logical groups (e.g.,
+          callinformation, engagement, call) to organize the data. Facilitates
+          filtering, reporting, and user navigation across various property
+          sets.
+        data_type: VARCHAR
+        tests: []
+      - name: Description
+        constraints: []
+        description: >-
+          Provides detailed explanations regarding the purpose and use of each
+          call property. This narrative aids in business process documentation
+          and helps users understand the context and implications of each field.
+        data_type: VARCHAR
+        tests: []
+      - name: DisplayOrder
+        constraints: []
+        description: >-
+          Determines the sequence in which the call property appears in user
+          interfaces. The numeric values control ordering and ensure that
+          properties are presented logically and intuitively during data entry
+          and review.
+        data_type: INT
+        tests: []
+      - name: ExternalOptions
+        constraints: []
+        description: >-
+          A boolean flag indicating whether external option sets are available
+          for the call property. This influences how dropdowns and selectable
+          lists are populated, linking the property to external configuration
+          sources.
+        data_type: BIT
+        tests: []
+      - name: IsFormField
+        constraints: []
+        description: >-
+          Indicates if the call property is intended to be displayed and used
+          within data entry forms. This flag assists in controlling the
+          presentation layer and streamlines the user interface for accurate
+          data capture.
+        data_type: BIT
+        tests: []
+      - name: IsCalculated
+        constraints: []
+        description: >-
+          Shows whether the value of the call property is automatically computed
+          based on defined logic. This distinction between static and calculated
+          fields supports backend automation and ensures data consistency.
+        data_type: BIT
+        tests: []
+      - name: IsHidden
+        constraints: []
+        description: >-
+          Specifies if the call property is concealed from standard views. This
+          field plays a key role in controlling access, tailoring user
+          interfaces, and protecting sensitive information within the system.
+        data_type: BIT
+        tests: []
+      - name: IsHubspotDefined
+        constraints: []
+        description: >-
+          Indicates whether a call property is defined by HubSpot’s default
+          configuration. Essential for distinguishing between system-initialized
+          and custom-added properties, aiding in configuration management and
+          support.
+        data_type: BIT
+        tests: []
+      - name: Archivable
+        constraints: []
+        description: >-
+          Denotes if the call property can be archived. This status helps manage
+          data lifecycle by marking fields for potential deactivation without
+          deletion, supporting historical data retention and audit requirements.
+        data_type: BIT
+        tests: []
+      - name: ReadOnlyDefinition
+        constraints: []
+        description: >-
+          Determines if the call property is inherently read-only as per its
+          definition. This setting enforces strict editing controls to maintain
+          system integrity and prevent unauthorized modifications.
+        data_type: BIT
+        tests: []
+      - name: ReadOnlyValue
+        constraints: []
+        description: >-
+          Flags whether the current value of the call property is not editable.
+          It reinforces the rules set by the read-only definition to ensure data
+          remains consistent in live environments.
+        data_type: BIT
+        tests: []
+      - name: OptionsAggregate
+        constraints: []
+        description: >-
+          Contains aggregated JSON data for selectable options related to the
+          call property. This field stores arrays of option objects including
+          labels, values, ordering, and visibility settings, supporting dynamic
+          form generation and user interface configuration.
+        data_type: VARCHAR
+        tests: []
+      - name: HasUniqueValue
+        constraints: []
+        description: >-
+          This column in the CallProperties table flags whether each record
+          contains a unique property. It is a boolean field with values True
+          indicating a uniquely identified call or entry, and False suggesting a
+          potential duplicate value. This column is critical for data integrity,
+          deduplication processes, and validating the uniqueness of call records
+          in analytical queries.
+        data_type: BIT
+        tests: []
+  - name: AGENTS
+    description: >-
+      This table represents detailed records of individual agents essential for
+      business operations and customer relations. Each record includes a unique
+      agent identifier, along with the agent's first name, last name, email
+      address, and phone number. These details collectively support effective
+      communication, track agent performance, and facilitate transaction
+      management by linking personal contact information with professional
+      responsibilities. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/cc8d3dad-a0a1-4385-b431-224f96c0ccd8
+    constraints:
+      - type: primary_key
+        columns:
+          - AGENT_ID
+    columns:
+      - name: AGENT_ID
+        constraints: []
+        description: >-
+          This column contains the unique numerical identifier for each agent in
+          the database. It acts as a primary key, linking agent personal
+          profiles with related records such as transactions, commissions, and
+          performance metrics. The numerical values, although not fully unique
+          across rows, are critical for cross-referencing data across tables and
+          ensuring accurate agent tracking.
+        data_type: DECIMAL
+        tests: []
+      - name: FIRST_NAME
+        constraints: []
+        description: >-
+          This column stores the first names of agents, providing key
+          information used in creating complete personal identities. When
+          combined with the last name, it forms a recognizable full name,
+          essential for agent communication, record validation, and personalized
+          services. It supports queries that require matching or filtering
+          agents by their given names.
+        data_type: VARCHAR
+        tests: []
+      - name: LAST_NAME
+        constraints: []
+        description: >-
+          This column captures the last names of agents, which are used
+          alongside the first names to establish a full, recognizable identity
+          for each agent. The data is important for reporting, internal
+          communications, and integration with other datasets where names serve
+          as identifying attributes. It enhances data quality in contact lists
+          and profile verifications.
+        data_type: VARCHAR
+        tests: []
+      - name: EMAIL
+        constraints: []
+        description: >-
+          This column records unique email addresses for each agent, serving as
+          a vital channel for communication and digital identity verification.
+          The email addresses ensure each agent's record is distinct and are
+          used for contact, authentication, and notification purposes across
+          various business systems. It plays a key role in linking agents to
+          customer interactions and transaction updates.
+        data_type: VARCHAR
+        tests: []
+      - name: PHONE
+        constraints: []
+        description: >-
+          This column stores the phone numbers of agents, often including
+          extensions and diverse formatting, which supports real-time and direct
+          communication. The data is essential for contacting agents, managing
+          service calls, and integrating with other communication systems. It
+          enhances operational efficiency by providing a direct method for
+          reaching agents across various communication channels.
+        data_type: VARCHAR
+        tests: []
+  - name: AssociationsTypes
+    description: >-
+      This table stores detailed metadata for various association types that
+      define relationships between business objects. Each record is uniquely
+      identified by the 'Association Identifier' (Id) and categorizes the
+      association by its 'Association Type'. Additionally, the 'Source Object
+      Type' (FromObjectType) and 'Target Object Type' (ToObjectType) columns
+      describe the originating and target entities involved in the relationship,
+      facilitating clear mapping and management of interconnected business
+      data. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/4cdc0cc5-643e-45c8-a2aa-a77b8413e9d9
+    constraints:
+      - type: primary_key
+        columns:
+          - Id
+          - FromObjectType
+          - ToObjectType
+    columns:
+      - name: Type
+        constraints: []
+        description: >-
+          This column defines the category or nature of the association between
+          objects. It is used in tandem with 'FromObjectType' and 'ToObjectType'
+          to establish a full mapping of relationship types within the system.
+          Business logic and relational mapping depend on the definition
+          provided in this column, despite the sample being empty.
+        data_type: VARCHAR
+        tests: []
+      - name: Id
+        constraints: []
+        description: >-
+          This column stores a unique identifier for each association type and
+          is intended to differentiate each entry in the AssociationsTypes
+          table. It serves a primary key role and links relationships across
+          columns, although the current sample data is empty. It is critical for
+          associating details with other columns like 'Type'.
+        data_type: VARCHAR
+        tests: []
+      - name: FromObjectType
+        constraints: []
+        description: >-
+          This column indicates the originating object type in the association
+          relationships. It works with 'Association Type' to show where a
+          relationship begins, offering insight into the source categorization
+          of business entities. The field supports relational mapping and
+          business process tracking even though it is currently empty.
+        data_type: VARCHAR
+        tests: []
+      - name: ToObjectType
+        constraints: []
+        description: >-
+          This column represents the target or destination object type in the
+          associations. It complements the 'Source Object Type' by indicating
+          where the association ends, thereby helping to fully define the
+          relationship's flow. This information is central to understanding data
+          associations in business transactions, despite the sample lacking
+          data.
+        data_type: VARCHAR
+        tests: []
+  - name: CompaniesToEmailsAssociations
+    description: >-
+      Each record in this table represents a specific binding between an
+      organization and its email engagement campaign. The 'Company Identifier'
+      uniquely identifies a company, while the 'Email Engagement Identifier'
+      pinpoints a particular email campaign. The 'Association Type' describes
+      the nature of the relationship between the company and the email campaign,
+      supporting effective tracking and analysis of communication engagements,
+      customer relationships, and marketing outcomes. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/dfc684da-67b0-4457-b24f-a54ca1befb97
+    constraints:
+      - type: primary_key
+        columns:
+          - CompaniesId
+          - EngagementsEmailsId
+    columns:
+      - name: CompaniesId
+        constraints: []
+        description: >-
+          This column holds the unique numeric identifier for companies. It acts
+          as a foreign key linking each record to a specific company entry in a
+          related companies table. It is essential for joining operations with
+          email engagement data and ensures accurate mapping between company and
+          email association records for business analysis.
+        data_type: BIGINT
+        tests: []
+      - name: EngagementsEmailsId
+        constraints: []
+        description: >-
+          This column contains a unique numeric identifier for each email
+          engagement record. It distinguishes individual email communications
+          and supports tracking outreach activities across companies. It
+          directly relates to the CompaniesId column by establishing an
+          association between email engagements and the respective companies,
+          which is crucial for transactional and marketing analytics.
+        data_type: BIGINT
+        tests: []
+      - name: Type
+        constraints: []
+        description: >-
+          This column indicates the type of association recorded in the table,
+          which in this dataset is consistently 'Email'. It serves to categorize
+          the record, allowing filtering and validation of email-specific
+          associations. The field is essential for maintaining business context,
+          ensuring that the communications tracked are properly identified as
+          email-based activities.
+        data_type: VARCHAR
+        tests: []
+  - name: CompaniesToContactsAssociations
+    description: >-
+      Each record in this table represents a specific association between a
+      company and a contact in a business environment. The CompaniesId column
+      serves as the unique identifier for the company, while the ContactsId
+      column uniquely identifies the contact. The Type column (labeled as
+      Association Type) details the nature or role of the relationship between
+      the two entities, such as client, vendor, partner, or representative. This
+      comprehensive mapping ensures that each relationship is uniquely defined
+      by the combination of company, contact, and the type of association,
+      facilitating accurate relational mapping and business insights. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/0d1ac021-9d39-4fb5-93e2-0cb99a1c16c5
+    constraints:
+      - type: primary_key
+        columns:
+          - CompaniesId
+          - ContactsId
+    columns:
+      - name: Type
+        constraints: []
+        description: >-
+          This column specifies the nature of the association between a company
+          and a contact. It consistently holds the value 'Contact', indicating
+          that the link is of a contact type. The field is useful for
+          categorizing the relationship and can support future expansions if
+          different association types are introduced. It provides clarity when
+          joining with other relational data.
+        data_type: VARCHAR
+        tests: []
+      - name: CompaniesId
+        constraints: []
+        description: >-
+          This column holds the unique identifier for companies involved in the
+          association. It is a numeric key (np.int64) that links the company
+          record to its associated contacts. With repeated values across rows,
+          it establishes a one-to-many relationship with the ContactsId field,
+          aiding in relational queries related to customer data and company
+          profiles.
+        data_type: BIGINT
+        tests: []
+      - name: ContactsId
+        constraints: []
+        description: >-
+          This column stores the unique identifier for contacts associated with
+          companies. Represented as a np.int64 value, each value is distinct and
+          links a contact to its parent company entry in the CompaniesId column.
+          This relationship is crucial for mapping transactions, customer
+          communications, and other contact-specific relational data in broader
+          contact management and customer service contexts.
+        data_type: BIGINT
+        tests: []
+  - name: BRANCHES
+    description: >-
+      This table stores detailed information for each branch within an
+      organization. Each record uniquely identifies a branch using the Branch
+      Identifier (BRANCH_ID) and provides additional contextual details such as
+      the Branch Name (BRANCH_NAME), the Branch Manager (BRANCH_MANAGER), and
+      the Location ID (LOCATION_ID) which indicates its geographical or
+      operational location. This data is crucial for managing branch operations,
+      tracking performance, and linking managerial responsibilities to the
+      specific branch location. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/3d783553-230d-489e-9cba-4f0e3e47b42b
+    constraints:
+      - type: primary_key
+        columns:
+          - BRANCH_ID
+    columns:
+      - name: BRANCH_NAME
+        constraints: []
+        description: >-
+          This column holds the official branch name and uniquely identifies
+          each branch entity. It is essential for linking branch records to
+          branch managers, branch IDs, and geographic locations. It aids in
+          operational reporting, branding analysis, and market segmentation.
+          Keywords: branch, unique identifier, operations, branding.
+        data_type: VARCHAR
+        tests: []
+      - name: BRANCH_MANAGER
+        constraints: []
+        description: >-
+          This column contains the names of branch managers responsible for
+          leading branch operations. It links directly to the branch names and
+          branch identifiers, enabling analysis of leadership performance and
+          management accountability within each branch. Keywords: manager,
+          leadership, operations, accountability.
+        data_type: VARCHAR
+        tests: []
+      - name: LOCATION_ID
+        constraints: []
+        description: >-
+          This column holds numeric identifiers representing the physical or
+          operational locations associated with each branch. It acts as a key
+          for joining with location-based datasets, supporting geographic
+          analysis, regional operations, and logistics. Keywords: location,
+          numeric identifier, geographic, logistics.
+        data_type: DECIMAL
+        tests: []
+      - name: BRANCH_ID
+        constraints: []
+        description: >-
+          This column provides the identifier for branch groupings, with some
+          values recurring across multiple records. It consolidates
+          branch-related data and links branch names, managers, and
+          transactions, supporting performance analysis and operational
+          aggregation across branches. Keywords: branch grouping, identifier,
+          performance, aggregation.
+        data_type: DECIMAL
+        tests: []
+  - name: CompaniesToDealsAssociations
+    description: >-
+      Each record in this table represents a unique association between a
+      company and a deal. It captures the Company Identifier (CompaniesId) to
+      denote which company is involved, the Deal Identifier (DealsId) to specify
+      the particular deal, and the Association Type (Type) to describe the
+      nature of the relationship. This structure is essential for tracking and
+      analyzing company-deal interactions, supporting insights into business
+      collaborations and strategic partnerships. 
+
+        This entity was created from source: https://alina.proto1.ellie.ai/sources/f63b26a2-766e-439b-9348-ddf0618769c1
+    constraints:
+      - type: primary_key
+        columns:
+          - CompaniesId
+          - DealsId
+    columns:
+      - name: CompaniesId
+        constraints: []
+        description: >-
+          The CompaniesId column stores the unique numerical identifier of a
+          company involved in deal associations. It links companies to deals and
+          helps record multiple associations when a company participates in
+          several deals, making it an essential element for business entity
+          tracking and relational data mapping.
+        data_type: BIGINT
+        tests: []
+      - name: DealsId
+        constraints: []
+        description: >-
+          The DealsId column contains the unique numerical identifier for each
+          deal in the association table. It distinguishes individual deals and,
+          when used with CompaniesId, facilitates accurate mapping of
+          transactional interactions between companies and their deals, ensuring
+          clarity in business transactions.
+        data_type: BIGINT
+        tests: []
+      - name: Type
+        constraints: []
+        description: >-
+          The Type column specifies the category of entries in the association
+          table, consistently holding the value 'Deal'. This marks the record as
+          a deal-related transaction and reinforces the business context by
+          clearly indicating the nature of the association between companies and
+          deals.
+        data_type: VARCHAR
+        tests: []
