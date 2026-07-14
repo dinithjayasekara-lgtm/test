@@ -1,0 +1,2655 @@
+{
+  "modelId": 4818,
+  "name": "Test7",
+  "description": "Conceptual data model for a human management system covering people, recruitment, employment, payroll, time/attendance, benefits, performance, learning, assets and lifecycle events.",
+  "level": "conceptual",
+  "folderId": 127,
+  "dbEngine": null,
+  "progressStatus": "work-in-progress",
+  "createdAt": "2026-06-09T07:34:15.175Z",
+  "updatedAt": "2026-06-09T07:34:15.175Z",
+  "entities": [
+    {
+      "id": "1e99e1b6-f173-4e4f-894d-65608727ab07",
+      "name": "Person",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "An individual as a general actor in the model — any natural person referenced by the organization (employees, candidates, contacts, dependents).",
+        "Examples": "",
+        "Synonyms": "[\"Individual\",\"Natural Person\",\"Person Record\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+      "name": "Employee",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A person engaged by the organization under an employment relationship who performs work and is managed by the company.",
+        "Examples": "",
+        "Synonyms": "[\"Staff Member\",\"Worker\",\"Associate\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+      "name": "Candidate",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A person applying or being considered for a role or opportunity within the organization, typically during recruitment.",
+        "Examples": "",
+        "Synonyms": "[\"Applicant\",\"Job Applicant\",\"Prospective Hire\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "aaf769db-900d-4765-88db-cbc8a17bd284",
+      "name": "Job Position",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A defined set of responsibilities and requirements describing a role that can be filled by an individual within the organization.",
+        "Examples": "",
+        "Synonyms": "[\"Position\",\"Job\",\"Role Definition\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+      "name": "Job Opening",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A specific vacancy or available assignment that the organization seeks to fill, usually tied to a job position.",
+        "Examples": "",
+        "Synonyms": "[\"Open Position\",\"Vacancy\",\"Job Vacancy\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "0b4f2f36-f11d-427a-8147-efa3d4208e76",
+      "name": "Department",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A formal organizational unit grouping related functions, responsibilities, or staff within the company.",
+        "Examples": "",
+        "Synonyms": "[\"Division\",\"Business Unit\",\"Org Unit\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "27188f21-baa5-4be5-b85a-3120657b2a51",
+      "name": "Team",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A group of people organized to work together on shared tasks or objectives, often cross-functional or project-based.",
+        "Examples": "",
+        "Synonyms": "[\"Work Group\",\"Project Team\",\"Squad\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "9af35174-2ab8-40ad-b3e2-029029e1d9fc",
+      "name": "Role",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A set of responsibilities or expected behaviors assigned to a person in a given context, distinct from a specific job position.",
+        "Examples": "",
+        "Synonyms": "[\"Function\",\"Responsibility\",\"Assigned Role\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "f650d1e5-30cc-46d5-8b6e-30a601bbf526",
+      "name": "Manager",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A person responsible for supervising, directing, and evaluating others' work and often accountable for a team or function.",
+        "Examples": "",
+        "Synonyms": "[\"Supervisor\",\"Team Lead\",\"Line Manager\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+      "name": "Employment Contract",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A formal agreement defining the terms and conditions of employment between the organization and a worker.",
+        "Examples": "",
+        "Synonyms": "[\"Employment Agreement\",\"Contract of Employment\",\"Work Agreement\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "d79158f4-d19c-493d-b451-03ffba36234f",
+      "name": "Pay Grade",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A classification that defines compensation range or level for jobs, used to standardize salary structure.",
+        "Examples": "",
+        "Synonyms": "[\"Salary Band\",\"Compensation Band\",\"Pay Scale\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "0c3f7699-a8de-40a5-af8f-289e514b52ac",
+      "name": "Payroll Record",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A record of payments, deductions, and payroll-related transactions for an individual across pay periods.",
+        "Examples": "",
+        "Synonyms": "[\"Pay Record\",\"Payroll Entry\",\"Pay Statement\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "d33e9afd-f6c2-46e9-9695-9ed6043c022c",
+      "name": "Benefit Plan",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A structured package of non-salary compensation offerings (insurance, retirement, perks) available to eligible persons.",
+        "Examples": "",
+        "Synonyms": "[\"Benefits Package\",\"Employee Benefit Plan\",\"Compensation Plan\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "b31cb7de-6585-418f-89bd-688e25427ad3",
+      "name": "Benefit Enrollment",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "The act or record of an individual selecting and being registered for one or more benefit plan options.",
+        "Examples": "",
+        "Synonyms": "[\"Benefits Enrollment\",\"Benefits Signup\",\"Plan Enrollment\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "de271e89-3083-4ad7-96fe-a61abb504c43",
+      "name": "Salary Record",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A historical or current record of an individual's base pay and compensation changes over time.",
+        "Examples": "",
+        "Synonyms": "[\"Compensation Record\",\"Salary History\",\"Pay History\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "1d3b7880-a7f7-454d-8309-80831f4a8bb8",
+      "name": "Time Sheet",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A record capturing hours worked, tasks performed, or time allocation for payroll and tracking purposes.",
+        "Examples": "",
+        "Synonyms": "[\"Timesheet\",\"Timecard\",\"Work Hours Log\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "57ce1c3f-da52-459e-8364-7430ea90aca6",
+      "name": "Attendance Record",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A log of presence, absence, check-ins/outs, and attendance-related events for scheduling and compliance.",
+        "Examples": "",
+        "Synonyms": "[\"Attendance Log\",\"Presence Record\",\"Time and Attendance Record\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "2d0510a8-f3ef-4d11-a5a1-541d919c40b5",
+      "name": "Leave Request",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A formal request by an individual to take time away from work for vacation, illness, or other approved reasons.",
+        "Examples": "",
+        "Synonyms": "[\"Time Off Request\",\"Absence Request\",\"Leave Application\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "32c00437-037c-4b7f-9e83-a4b5d068bfce",
+      "name": "Shift",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A scheduled block of working time assigned to a person, often used in hourly or round-the-clock operations.",
+        "Examples": "",
+        "Synonyms": "[\"Work Shift\",\"Duty Shift\",\"Scheduled Shift\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "30c4b954-45cd-4f76-af10-cec3ef720cfe",
+      "name": "Office Location",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A physical site, facility, or workplace address where organizational activities are performed.",
+        "Examples": "",
+        "Synonyms": "[\"Workplace\",\"Office Site\",\"Facility Location\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "4595367e-e942-49d1-b61e-03862939bc22",
+      "name": "Company Asset",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "Any physical or logical asset owned or managed by the organization that has value and is used in operations.",
+        "Examples": "",
+        "Synonyms": "[\"Corporate Asset\",\"Organizational Asset\",\"Business Asset\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "df056901-5deb-41af-b06a-b321986e9557",
+      "name": "Emergency Contact",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A person designated to be notified in case of an emergency involving an individual associated with the organization.",
+        "Examples": "",
+        "Synonyms": "[\"Next of Kin\",\"Emergency Contact Person\",\"Emergency Contact Info\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "7a9dee4a-47e2-4191-a272-90fbc7bfb621",
+      "name": "Performance Review",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A formal assessment of an individual's job performance, typically used for feedback, development, and compensation decisions.",
+        "Examples": "",
+        "Synonyms": "[\"Performance Appraisal\",\"Performance Evaluation\",\"Employee Review\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "5be0493c-dcfc-4889-8f83-bdf7d2b39609",
+      "name": "Goal",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A specific, measurable objective assigned to an individual or team to guide performance and development.",
+        "Examples": "",
+        "Synonyms": "[\"Objective\",\"Target\",\"Performance Goal\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "d87911bd-5116-48a0-b134-0209464a03e4",
+      "name": "Competency",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A measurable capability or combination of skills, knowledge, and behaviors required to perform effectively in a role.",
+        "Examples": "",
+        "Synonyms": "[\"Capability\",\"Competence\",\"Behavioral Competency\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "c461f898-d4ea-4fa3-8b90-2dba9b2bef5b",
+      "name": "Skill",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A specific learned ability or expertise that enables a person to perform tasks or duties.",
+        "Examples": "",
+        "Synonyms": "[\"Ability\",\"Expertise\",\"Proficiency\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "2817111f-a549-4356-ba42-2c40379c6cee",
+      "name": "Training Course",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A structured learning offering designed to build knowledge, skills, or competencies for individuals or groups.",
+        "Examples": "",
+        "Synonyms": "[\"Training Program\",\"Course\",\"Learning Module\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "1771c554-352b-4daa-8e61-d19751a12793",
+      "name": "Training Enrollment",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "The record of an individual's registration or participation in a training course or program.",
+        "Examples": "",
+        "Synonyms": "[\"Training Registration\",\"Course Enrollment\",\"Learning Enrollment\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "52e39617-52de-4724-895f-45b238eb04ab",
+      "name": "Certification",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A formal credential awarded to an individual recognizing attainment of specified skills, knowledge, or standards.",
+        "Examples": "",
+        "Synonyms": "[\"Certificate\",\"Credential\",\"Professional Certification\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "a5e17aaf-5a53-4699-9574-374e687941ce",
+      "name": "Interview",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A structured interaction used to evaluate a candidate's suitability for a role, often part of recruitment.",
+        "Examples": "",
+        "Synonyms": "[\"Candidate Interview\",\"Job Interview\",\"Screening Interview\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+      "name": "Offer Letter",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A written document presenting employment terms and a formal invitation for a candidate to accept a job.",
+        "Examples": "",
+        "Synonyms": "[\"Employment Offer\",\"Job Offer Letter\",\"Offer of Employment\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "ec70b287-c475-46d1-8277-65a97dbaf79d",
+      "name": "Background Check",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A process of verifying an individual's history (employment, criminal, education) to assess suitability or risk.",
+        "Examples": "",
+        "Synonyms": "[\"Background Screening\",\"Pre-employment Screening\",\"Credential Check\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "c2ec3f2d-8464-404a-b62c-7d31b76947c9",
+      "name": "Termination Record",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A record documenting the end of an individual's employment, including reasons, dates, and exit details.",
+        "Examples": "",
+        "Synonyms": "[\"Separation Record\",\"Employment Termination\",\"Exit Record\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "87df5678-d941-4e58-87d8-3a60193c5a53",
+      "name": "Onboarding Task",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-06-09T07:34:15.175Z",
+      "updatedAt": "2026-06-09T07:34:15.175Z",
+      "folderId": 127,
+      "metadata": {
+        "Description": "A discrete activity or checklist item completed to integrate a new hire into the organization and make them operational.",
+        "Examples": "",
+        "Synonyms": "[\"New Hire Task\",\"Onboarding Checklist Item\",\"Orientation Task\"]",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    }
+  ],
+  "extras": [],
+  "relationships": [
+    {
+      "id": "9def3f98-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "1e99e1b6-f173-4e4f-894d-65608727ab07",
+        "name": "Person",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has employee record",
+          "direction": null
+        },
+        {
+          "name": "is person of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def57bc-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "1e99e1b6-f173-4e4f-894d-65608727ab07",
+        "name": "Person",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+        "name": "Candidate",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has candidate profile",
+          "direction": null
+        },
+        {
+          "name": "is candidate of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def5a3c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+        "name": "Employment Contract",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has contracts",
+          "direction": null
+        },
+        {
+          "name": "applies to",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def5c08-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+        "name": "Employment Contract",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "d79158f4-d19c-493d-b451-03ffba36234f",
+        "name": "Pay Grade",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "specifies pay grade",
+          "direction": null
+        },
+        {
+          "name": "is specified by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def5dac-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "0c3f7699-a8de-40a5-af8f-289e514b52ac",
+        "name": "Payroll Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has payroll records",
+          "direction": null
+        },
+        {
+          "name": "is for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def5f3c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "0c3f7699-a8de-40a5-af8f-289e514b52ac",
+        "name": "Payroll Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "de271e89-3083-4ad7-96fe-a61abb504c43",
+        "name": "Salary Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "contains salary records",
+          "direction": null
+        },
+        {
+          "name": "is part of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def60fe-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "de271e89-3083-4ad7-96fe-a61abb504c43",
+        "name": "Salary Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has salary records",
+          "direction": null
+        },
+        {
+          "name": "is for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def628e-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "1d3b7880-a7f7-454d-8309-80831f4a8bb8",
+        "name": "Time Sheet",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "submits timesheets",
+          "direction": null
+        },
+        {
+          "name": "records for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def6414-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "1d3b7880-a7f7-454d-8309-80831f4a8bb8",
+        "name": "Time Sheet",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "57ce1c3f-da52-459e-8364-7430ea90aca6",
+        "name": "Attendance Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "contains attendance records",
+          "direction": null
+        },
+        {
+          "name": "is part of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def65a4-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "57ce1c3f-da52-459e-8364-7430ea90aca6",
+        "name": "Attendance Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "32c00437-037c-4b7f-9e83-a4b5d068bfce",
+        "name": "Shift",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "records shift",
+          "direction": null
+        },
+        {
+          "name": "is shift for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def672a-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "2d0510a8-f3ef-4d11-a5a1-541d919c40b5",
+        "name": "Leave Request",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "submits leave requests",
+          "direction": null
+        },
+        {
+          "name": "is for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def68c4-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "2d0510a8-f3ef-4d11-a5a1-541d919c40b5",
+        "name": "Leave Request",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "1d3b7880-a7f7-454d-8309-80831f4a8bb8",
+        "name": "Time Sheet",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "affects timesheets",
+          "direction": null
+        },
+        {
+          "name": "records leave",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def6a54-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "32c00437-037c-4b7f-9e83-a4b5d068bfce",
+        "name": "Shift",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "works shifts",
+          "direction": null
+        },
+        {
+          "name": "includes employees",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def6c02-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "30c4b954-45cd-4f76-af10-cec3ef720cfe",
+        "name": "Office Location",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "hosts employees",
+          "direction": null
+        },
+        {
+          "name": "is location for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def6e50-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "4595367e-e942-49d1-b61e-03862939bc22",
+        "name": "Company Asset",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "30c4b954-45cd-4f76-af10-cec3ef720cfe",
+        "name": "Office Location",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "is located at",
+          "direction": null
+        },
+        {
+          "name": "houses assets",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def701c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "4595367e-e942-49d1-b61e-03862939bc22",
+        "name": "Company Asset",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "assigned to employee",
+          "direction": null
+        },
+        {
+          "name": "has assets",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def71ac-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "df056901-5deb-41af-b06a-b321986e9557",
+        "name": "Emergency Contact",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has emergency contacts",
+          "direction": null
+        },
+        {
+          "name": "is contact for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def7332-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "0b4f2f36-f11d-427a-8147-efa3d4208e76",
+        "name": "Department",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "27188f21-baa5-4be5-b85a-3120657b2a51",
+        "name": "Team",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "contains teams",
+          "direction": null
+        },
+        {
+          "name": "belongs to",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def74c2-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "27188f21-baa5-4be5-b85a-3120657b2a51",
+        "name": "Team",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has members",
+          "direction": null
+        },
+        {
+          "name": "is member of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def763e-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "9af35174-2ab8-40ad-b3e2-029029e1d9fc",
+        "name": "Role",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "assigned to",
+          "direction": null
+        },
+        {
+          "name": "has role",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def77ec-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "f650d1e5-30cc-46d5-8b6e-30a601bbf526",
+        "name": "Manager",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "manages employees",
+          "direction": null
+        },
+        {
+          "name": "reports to",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def797c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "0b4f2f36-f11d-427a-8147-efa3d4208e76",
+        "name": "Department",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "f650d1e5-30cc-46d5-8b6e-30a601bbf526",
+        "name": "Manager",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has manager",
+          "direction": null
+        },
+        {
+          "name": "leads department",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def7b02-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "aaf769db-900d-4765-88db-cbc8a17bd284",
+        "name": "Job Position",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+        "name": "Job Opening",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has openings",
+          "direction": null
+        },
+        {
+          "name": "is opening for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def7c88-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+        "name": "Job Opening",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+        "name": "Candidate",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "attracts candidates",
+          "direction": null
+        },
+        {
+          "name": "applies to",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def7e0e-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+        "name": "Candidate",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "a5e17aaf-5a53-4699-9574-374e687941ce",
+        "name": "Interview",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "attends interviews",
+          "direction": null
+        },
+        {
+          "name": "is interview for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def7f8a-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "a5e17aaf-5a53-4699-9574-374e687941ce",
+        "name": "Interview",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "involves interviewers",
+          "direction": null
+        },
+        {
+          "name": "conducts interviews",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8110-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "a5e17aaf-5a53-4699-9574-374e687941ce",
+        "name": "Interview",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+        "name": "Job Opening",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "assesses opening",
+          "direction": null
+        },
+        {
+          "name": "is for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def82be-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+        "name": "Candidate",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+        "name": "Offer Letter",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "receives offers",
+          "direction": null
+        },
+        {
+          "name": "is offer for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8444-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+        "name": "Job Opening",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+        "name": "Offer Letter",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "generates offers",
+          "direction": null
+        },
+        {
+          "name": "is offer for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def85c0-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "3754ca75-1351-4b2f-83e4-2b0cafd935cf",
+        "name": "Candidate",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "ec70b287-c475-46d1-8277-65a97dbaf79d",
+        "name": "Background Check",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "undergoes checks",
+          "direction": null
+        },
+        {
+          "name": "is check for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8746-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+        "name": "Offer Letter",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "ec70b287-c475-46d1-8277-65a97dbaf79d",
+        "name": "Background Check",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "requires checks",
+          "direction": null
+        },
+        {
+          "name": "verifies offer",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def88d6-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+        "name": "Offer Letter",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+        "name": "Employment Contract",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "creates contracts",
+          "direction": null
+        },
+        {
+          "name": "originates from",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8a5c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+        "name": "Employment Contract",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "87df5678-d941-4e58-87d8-3a60193c5a53",
+        "name": "Onboarding Task",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "triggers tasks",
+          "direction": null
+        },
+        {
+          "name": "is triggered by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8bec-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "87df5678-d941-4e58-87d8-3a60193c5a53",
+        "name": "Onboarding Task",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "2817111f-a549-4356-ba42-2c40379c6cee",
+        "name": "Training Course",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "includes course",
+          "direction": null
+        },
+        {
+          "name": "is part of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8d68-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "2817111f-a549-4356-ba42-2c40379c6cee",
+        "name": "Training Course",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "1771c554-352b-4daa-8e61-d19751a12793",
+        "name": "Training Enrollment",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has enrollments",
+          "direction": null
+        },
+        {
+          "name": "is enrollment of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def8f16-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "1771c554-352b-4daa-8e61-d19751a12793",
+        "name": "Training Enrollment",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "enrolls employee",
+          "direction": null
+        },
+        {
+          "name": "is enrollment for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def90a6-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "1771c554-352b-4daa-8e61-d19751a12793",
+        "name": "Training Enrollment",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "52e39617-52de-4724-895f-45b238eb04ab",
+        "name": "Certification",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "may award",
+          "direction": null
+        },
+        {
+          "name": "is awarded by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def922c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "52e39617-52de-4724-895f-45b238eb04ab",
+        "name": "Certification",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "2817111f-a549-4356-ba42-2c40379c6cee",
+        "name": "Training Course",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "validates course",
+          "direction": null
+        },
+        {
+          "name": "is for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9def93b2-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "52e39617-52de-4724-895f-45b238eb04ab",
+        "name": "Certification",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "holds certifications",
+          "direction": null
+        },
+        {
+          "name": "is certification of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defe506-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "7a9dee4a-47e2-4191-a272-90fbc7bfb621",
+        "name": "Performance Review",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "evaluates employee",
+          "direction": null
+        },
+        {
+          "name": "is review for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defe75e-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "7a9dee4a-47e2-4191-a272-90fbc7bfb621",
+        "name": "Performance Review",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "5be0493c-dcfc-4889-8f83-bdf7d2b39609",
+        "name": "Goal",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "sets goals",
+          "direction": null
+        },
+        {
+          "name": "is goal of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defe920-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "5be0493c-dcfc-4889-8f83-bdf7d2b39609",
+        "name": "Goal",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has goals",
+          "direction": null
+        },
+        {
+          "name": "is goal of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defeaf6-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "d87911bd-5116-48a0-b134-0209464a03e4",
+        "name": "Competency",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c461f898-d4ea-4fa3-8b90-2dba9b2bef5b",
+        "name": "Skill",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "includes skills",
+          "direction": null
+        },
+        {
+          "name": "is skill of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defec9a-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "aaf769db-900d-4765-88db-cbc8a17bd284",
+        "name": "Job Position",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "d87911bd-5116-48a0-b134-0209464a03e4",
+        "name": "Competency",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "requires competencies",
+          "direction": null
+        },
+        {
+          "name": "is required by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defee34-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "7a9dee4a-47e2-4191-a272-90fbc7bfb621",
+        "name": "Performance Review",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "d87911bd-5116-48a0-b134-0209464a03e4",
+        "name": "Competency",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "assesses competencies",
+          "direction": null
+        },
+        {
+          "name": "is assessed by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9defefec-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c461f898-d4ea-4fa3-8b90-2dba9b2bef5b",
+        "name": "Skill",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "has skills",
+          "direction": null
+        },
+        {
+          "name": "is skill of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff17c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "0c3f7699-a8de-40a5-af8f-289e514b52ac",
+        "name": "Payroll Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "d79158f4-d19c-493d-b451-03ffba36234f",
+        "name": "Pay Grade",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "applies pay grade",
+          "direction": null
+        },
+        {
+          "name": "is pay grade for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff316-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "de271e89-3083-4ad7-96fe-a61abb504c43",
+        "name": "Salary Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "d79158f4-d19c-493d-b451-03ffba36234f",
+        "name": "Pay Grade",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "matches pay grade",
+          "direction": null
+        },
+        {
+          "name": "is pay grade for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff49c-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "d33e9afd-f6c2-46e9-9695-9ed6043c022c",
+        "name": "Benefit Plan",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "b31cb7de-6585-418f-89bd-688e25427ad3",
+        "name": "Benefit Enrollment",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "offers enrollments",
+          "direction": null
+        },
+        {
+          "name": "is enrollment for",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff654-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "b31cb7de-6585-418f-89bd-688e25427ad3",
+        "name": "Benefit Enrollment",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "enrolls benefits",
+          "direction": null
+        },
+        {
+          "name": "is enrollment of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff7f8-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "c2ec3f2d-8464-404a-b62c-7d31b76947c9",
+        "name": "Termination Record",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "7ee27c5c-da98-4bf4-9957-9f7e5439aeb7",
+        "name": "Employment Contract",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "terminates contract",
+          "direction": null
+        },
+        {
+          "name": "is termination of",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deff988-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "07e913cc-5336-4eeb-aa0b-757f38b43fd1",
+        "name": "Job Opening",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "0b4f2f36-f11d-427a-8147-efa3d4208e76",
+        "name": "Department",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "belongs to",
+          "direction": null
+        },
+        {
+          "name": "has openings",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deffb18-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "f650d1e5-30cc-46d5-8b6e-30a601bbf526",
+        "name": "Manager",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "27188f21-baa5-4be5-b85a-3120657b2a51",
+        "name": "Team",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "leads teams",
+          "direction": null
+        },
+        {
+          "name": "is led by",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deffca8-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "a5e17aaf-5a53-4699-9574-374e687941ce",
+        "name": "Interview",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "70d8457b-4335-4a2c-aa88-be273e37b0c2",
+        "name": "Offer Letter",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "leads to offer",
+          "direction": null
+        },
+        {
+          "name": "results from",
+          "direction": null
+        }
+      ]
+    },
+    {
+      "id": "9deffe42-63d5-11f1-b16a-5e07bbd7466b",
+      "name": null,
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "87df5678-d941-4e58-87d8-3a60193c5a53",
+        "name": "Onboarding Task",
+        "level": "conceptual",
+        "folderId": 127,
+        "startType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "c6fcc124-8667-4dac-994d-a8fd1962cea7",
+        "name": "Employee",
+        "level": "conceptual",
+        "folderId": 127,
+        "endType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "assigned to",
+          "direction": null
+        },
+        {
+          "name": "is task for",
+          "direction": null
+        }
+      ]
+    }
+  ]
+}
