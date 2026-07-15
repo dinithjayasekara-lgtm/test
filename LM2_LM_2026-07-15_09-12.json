@@ -1,0 +1,341 @@
+{
+  "modelId": 2995,
+  "name": "LM2",
+  "description": "",
+  "level": "logical",
+  "folderId": 152,
+  "dbEngine": null,
+  "progressStatus": "work-in-progress",
+  "createdAt": "2026-04-28T08:14:30.459Z",
+  "updatedAt": "2026-05-29T06:56:10.244Z",
+  "entities": [
+    {
+      "id": "43f11ab7-5d9a-4418-8e64-e9688b9e07fd",
+      "name": "test",
+      "level": "logical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-05-29T06:55:23.263Z",
+      "updatedAt": "2026-05-29T06:55:57.462Z",
+      "folderId": null,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "9394c8f5-9565-49df-854d-456717f60a6e",
+      "name": "teste3",
+      "level": "logical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-05-29T06:55:28.946Z",
+      "updatedAt": "2026-05-29T06:55:55.917Z",
+      "folderId": null,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": []
+    },
+    {
+      "id": "99e35dff-ca56-47fc-81e1-150a2b607062",
+      "name": "LogicalEntity4",
+      "level": "logical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-04-28T08:14:30.459Z",
+      "updatedAt": "2026-05-29T06:54:48.844Z",
+      "folderId": 152,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": [
+        {
+          "id": "e1c60e70-fda0-4420-aafb-860aea9c4fab",
+          "name": "Id",
+          "order": 1,
+          "createdAt": "2026-04-28T08:14:30.459Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "INT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "fca3b748-78f6-4b81-a5cb-85ef074ff105",
+          "name": "Name",
+          "order": 2,
+          "createdAt": "2026-04-28T08:14:30.459Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "TEXT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "79371fc6-d2ea-43b2-830f-56b4333308a4",
+      "name": "LogicalEntityAPI3",
+      "level": "logical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-04-08T08:19:58.131Z",
+      "updatedAt": "2026-05-29T06:54:48.858Z",
+      "folderId": 152,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": [
+        {
+          "id": "5fbfb71d-dc15-4b1a-b742-bc58aaa65f23",
+          "name": "Id",
+          "order": 1,
+          "createdAt": "2026-04-08T08:19:58.131Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "INT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "ac417a52-68ef-4e4f-9554-e6b71b323b34",
+          "name": "Name",
+          "order": 2,
+          "createdAt": "2026-04-08T08:19:58.131Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "TEXT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "25a4c828-69dd-4144-b556-8876803e4bc4",
+          "name": "Ammatasiri",
+          "order": 3,
+          "createdAt": "2026-04-28T11:05:28.332Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "TEXT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "Test",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ffef3f8f-aa42-4ea4-8b97-d9b6d25bb4bb",
+      "name": "TestEntityUpdated",
+      "level": "logical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-04-28T08:42:49.492Z",
+      "updatedAt": "2026-05-29T06:54:48.825Z",
+      "folderId": null,
+      "metadata": {
+        "Description": "Test",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": [
+        {
+          "id": "70349de3-01c6-4de6-b939-fa2933eaa262",
+          "name": "Id",
+          "order": 1,
+          "createdAt": "2026-04-28T08:42:49.492Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "INT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "c0a417a0-6d50-43b0-bf9c-b9e7d52beda3",
+          "name": "Name",
+          "order": 2,
+          "createdAt": "2026-04-28T08:42:49.492Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "TEXT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "398f2eb2-8710-4020-8c94-5c30c3791e5d",
+      "value": "Sample Text",
+      "type": "textbox",
+      "textSize": "medium",
+      "colorHex": ""
+    }
+  ],
+  "relationships": [
+    {
+      "id": "481e9b3e-42da-11f1-823f-0242ac120004",
+      "name": "testR",
+      "description": null,
+      "level": "logical",
+      "folderId": 152,
+      "sourceEntity": {
+        "id": "79371fc6-d2ea-43b2-830f-56b4333308a4",
+        "name": "LogicalEntityAPI3",
+        "level": "logical",
+        "folderId": 152,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "99e35dff-ca56-47fc-81e1-150a2b607062",
+        "name": "LogicalEntity4",
+        "level": "logical",
+        "folderId": 152,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "Test2",
+          "direction": "target"
+        }
+      ]
+    },
+    {
+      "id": "500ba1f4-764d-48a1-8dad-cf6e9bae9d8a",
+      "name": "Test23",
+      "description": null,
+      "level": "logical",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "ffef3f8f-aa42-4ea4-8b97-d9b6d25bb4bb",
+        "name": "TestEntityUpdated",
+        "level": "logical",
+        "folderId": null,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "79371fc6-d2ea-43b2-830f-56b4333308a4",
+        "name": "LogicalEntityAPI3",
+        "level": "logical",
+        "folderId": 152,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": [
+        {
+          "name": "Test",
+          "direction": "target"
+        }
+      ]
+    }
+  ]
+}
