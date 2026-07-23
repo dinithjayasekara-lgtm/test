@@ -1,0 +1,233 @@
+{
+  "modelId": 5850,
+  "name": "CM2",
+  "description": "",
+  "level": "conceptual",
+  "folderId": 152,
+  "dbEngine": null,
+  "progressStatus": "work-in-progress",
+  "createdAt": "2026-07-15T07:10:50.124Z",
+  "updatedAt": "2026-07-23T10:27:25.910Z",
+  "entities": [
+    {
+      "id": "e3942af3-f012-4836-88e1-47185278ac54",
+      "name": "ce1",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-04-27T10:10:49.053Z",
+      "updatedAt": "2026-07-15T07:12:22.194Z",
+      "folderId": 152,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": [
+        {
+          "id": "646a9f7c-4221-11f1-bcf2-0242ac120004",
+          "name": "id",
+          "order": 1,
+          "createdAt": "2026-04-27T10:11:01.060Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "INT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "11be461a-665d-11f1-93ab-4e6dd1988742",
+          "name": "name",
+          "order": 2,
+          "createdAt": "2026-06-12T12:48:54.031Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "NAME",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "11be53da-665d-11f1-93ab-4e6dd1988742",
+          "name": "null",
+          "order": 3,
+          "createdAt": "2026-06-12T12:48:54.031Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "11be5650-665d-11f1-93ab-4e6dd1988742",
+          "name": "age",
+          "order": 4,
+          "createdAt": "2026-06-12T12:48:54.031Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "11be57b8-665d-11f1-93ab-4e6dd1988742",
+          "name": "test",
+          "order": 5,
+          "createdAt": "2026-06-12T12:48:54.031Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        },
+        {
+          "id": "11be5c04-665d-11f1-93ab-4e6dd1988742",
+          "name": "city",
+          "order": 6,
+          "createdAt": "2026-06-12T12:48:54.031Z",
+          "metadata": {
+            "PK": "false",
+            "FK": "false",
+            "Data type": "",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "952b6b07-bb4c-473f-80c7-2c60f63b5e53",
+      "name": "CE2",
+      "level": "conceptual",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-04-27T10:11:10.959Z",
+      "updatedAt": "2026-06-15T06:37:49.551Z",
+      "folderId": 152,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "",
+        "Source systems": "",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "TestMeta": ""
+      },
+      "attributes": [
+        {
+          "id": "7417b1c6-4221-11f1-9def-0242ac120004",
+          "name": "Id",
+          "order": 1,
+          "createdAt": "2026-04-27T10:11:27.372Z",
+          "metadata": {
+            "PK": "true",
+            "FK": "false",
+            "Data type": "INT",
+            "Not null": "false",
+            "Unique": "false",
+            "Partitioned by": "false",
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": ""
+          }
+        }
+      ]
+    }
+  ],
+  "extras": [],
+  "relationships": [
+    {
+      "id": "0175f321-f305-4a1a-87b2-895bd85fc48f",
+      "name": "Test",
+      "description": null,
+      "level": "conceptual",
+      "folderId": null,
+      "sourceEntity": {
+        "id": "e3942af3-f012-4836-88e1-47185278ac54",
+        "name": "ce1",
+        "level": "conceptual",
+        "folderId": 152,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "952b6b07-bb4c-473f-80c7-2c60f63b5e53",
+        "name": "CE2",
+        "level": "conceptual",
+        "folderId": 152,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": []
+    }
+  ]
+}
