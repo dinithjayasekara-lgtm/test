@@ -1,0 +1,37 @@
+version: 2
+sources: []
+models:
+  - name: Prescription
+    description: Written order from a doctor authorizing a patient to obtain medication.
+    constraints: []
+    columns: []
+  - name: Billing
+    description: >-
+      Process of charging and collecting payment for healthcare services
+      rendered.
+    constraints: []
+    columns: []
+  - name: Treatment
+    description: >-
+      Medical care or therapy provided to patients to address health conditions
+      or diseases.
+    constraints: []
+    columns: []
+  - name: Doctor
+    description: >-
+      Licensed healthcare professional providing medical care and treatment to
+      patients.
+    constraints: []
+    columns: []
+  - name: Appointment
+    description: >-
+      Scheduled meeting between healthcare providers and patients for
+      consultation or treatment.
+    constraints: []
+    columns: []
+  - name: Patient
+    description: >-
+      An individual receiving healthcare services, central to medical records
+      and treatment plans.
+    constraints: []
+    columns: []
