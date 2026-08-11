@@ -1,0 +1,80 @@
+version: 2
+sources: []
+models:
+  - name: test
+    description: ''
+    constraints: []
+    columns: []
+  - name: teste3
+    description: ''
+    constraints: []
+    columns: []
+  - name: LogicalEntity4
+    description: ''
+    constraints:
+      - type: primary_key
+        columns:
+          - Id
+    columns:
+      - name: Id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+      - name: Name
+        constraints: []
+        description: ''
+        data_type: TEXT
+        tests: []
+  - name: LogicalEntityAPI3
+    description: ''
+    constraints:
+      - type: primary_key
+        columns:
+          - Id
+          - Ammatasiri
+          - Ammatasiri
+          - Ammatasiri
+    columns:
+      - name: Id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+      - name: Name
+        constraints: []
+        description: ''
+        data_type: TEXT
+        tests: []
+      - name: Ammatasiri
+        constraints: []
+        description: Test
+        data_type: TEXT
+        tests: []
+      - name: Ammatasiri
+        constraints: []
+        description: Test
+        data_type: TEXT
+        tests: []
+      - name: Ammatasiri
+        constraints: []
+        description: Test
+        data_type: TEXT
+        tests: []
+  - name: TestEntityUpdated
+    description: Test
+    constraints:
+      - type: primary_key
+        columns:
+          - Id
+    columns:
+      - name: Id
+        constraints: []
+        description: ''
+        data_type: INT
+        tests: []
+      - name: Name
+        constraints: []
+        description: ''
+        data_type: TEXT
+        tests: []
