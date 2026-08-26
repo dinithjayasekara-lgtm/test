@@ -1,0 +1,155 @@
+{
+  "modelId": 9534,
+  "name": "test",
+  "description": "",
+  "level": "physical",
+  "folderId": 1022,
+  "dbEngine": "databricks",
+  "metadata": {
+    "TEXT": "",
+    "BOOLEAN": false,
+    "CHIPSWITHNOVALUES": "[]",
+    "CHIPSWITHVALUE": "[]",
+    "USERS": "[]",
+    "Technical": ""
+  },
+  "progressStatus": "work-in-progress",
+  "createdAt": "2026-08-26T10:29:23.105Z",
+  "updatedAt": "2026-08-26T10:58:42.261Z",
+  "entities": [
+    {
+      "id": "859469d4-3992-4f6d-8b97-56d4ecd08db8",
+      "name": "lo",
+      "level": "physical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-08-26T10:29:34.644Z",
+      "updatedAt": "2026-08-26T10:29:55.627Z",
+      "folderId": null,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "[]",
+        "Source systems": "[]",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "ChipsWithDefValue": "[]",
+        "ChipsWithCustonVal": "[]",
+        "Boolean": false,
+        "Users": "[]",
+        "links": []
+      },
+      "linkedEntities": [],
+      "attributes": [
+        {
+          "id": "149f47e6-a139-11f1-b257-e6fcb169f646",
+          "name": "id",
+          "order": 1,
+          "createdAt": "2026-08-26T10:29:55.627Z",
+          "metadata": {
+            "PK": true,
+            "FK": false,
+            "Data type": "INT",
+            "Not null": false,
+            "Unique": false,
+            "Partitioned by": false,
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": "",
+            "ChipWithDefValue": "[]",
+            "ChipWithCustomVal": "[]",
+            "Boolean": false,
+            "Users": "[]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0fb9c6b8-9205-4dca-832a-9b476c0ecf48",
+      "name": "lod",
+      "level": "physical",
+      "type": "Not set",
+      "progressStatus": "work-in-progress",
+      "createdAt": "2026-08-26T10:29:38.549Z",
+      "updatedAt": "2026-08-26T10:30:41.063Z",
+      "folderId": null,
+      "metadata": {
+        "Description": "",
+        "Examples": "",
+        "Synonyms": "[]",
+        "Source systems": "[]",
+        "Administrated by": "",
+        "External Term ID": "",
+        "External Glossary ID": "",
+        "ChipsWithDefValue": "[]",
+        "ChipsWithCustonVal": "[]",
+        "Boolean": false,
+        "Users": "[]",
+        "links": []
+      },
+      "linkedEntities": [],
+      "attributes": [
+        {
+          "id": "2fb37a48-a139-11f1-acec-e6fcb169f646",
+          "name": "id",
+          "order": 1,
+          "createdAt": "2026-08-26T10:30:41.063Z",
+          "metadata": {
+            "PK": true,
+            "FK": false,
+            "Data type": "INT",
+            "Not null": false,
+            "Unique": false,
+            "Partitioned by": false,
+            "Default": "",
+            "Description": "",
+            "Source system": "",
+            "Source table": "",
+            "Source column": "",
+            "External Term ID": "",
+            "External Glossary ID": "",
+            "ChipWithDefValue": "[]",
+            "ChipWithCustomVal": "[]",
+            "Boolean": false,
+            "Users": "[]"
+          }
+        }
+      ]
+    }
+  ],
+  "extras": [],
+  "relationships": [
+    {
+      "id": "b30da4f6-cf84-44be-80ba-d9a9daa4be1d",
+      "name": null,
+      "description": null,
+      "level": "physical",
+      "folderId": null,
+      "relationshipId": 17292,
+      "sourceEntity": {
+        "id": "859469d4-3992-4f6d-8b97-56d4ecd08db8",
+        "name": "lo",
+        "level": "physical",
+        "folderId": null,
+        "startType": "one",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "targetEntity": {
+        "id": "0fb9c6b8-9205-4dca-832a-9b476c0ecf48",
+        "name": "lod",
+        "level": "physical",
+        "folderId": null,
+        "endType": "many",
+        "attributeNames": [],
+        "attributes": []
+      },
+      "labels": []
+    }
+  ]
+}
